@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:async_plus/async_plus.dart';
+import 'package:async_notify/async_notify.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
 

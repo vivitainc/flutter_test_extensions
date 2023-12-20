@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:async_notify/async_notify.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -40,13 +39,9 @@ dynamic Function() testBody(Future Function() body) {
 }
 
 void _zoneErrorHandler(dynamic e, StackTrace stack) {
-  if (e is CancellationException) {
-    // drop error;
-    return;
-  }
   if (kDebugMode) {
-    print('error: $e');
-    print('stacktrace: $stack');
+    debugPrint('error: $e');
+    debugPrint('stacktrace: $stack');
   }
   fail('$e');
 }

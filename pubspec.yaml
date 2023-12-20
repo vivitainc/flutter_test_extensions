@@ -1,6 +1,6 @@
 name: test_extensions
 description: Test Utils for Flutter.
-version: 0.0.2
+version: 0.0.2+1
 homepage: https://github.com/vivitainc/flutter_test_extensions
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
